@@ -44,9 +44,11 @@ class Client
 		return isset($this->sender_map[$db]) ? $this->sender_map[$db] : $this->default_sender;
 	}
 
-	public function insert($db, $serie, $columns, $points) {
+	public function insert($db, $serie, $columns='value', $points=1) {
 		if( !is_array($points) ) $points = array(array($points));
 		else if( !is_array($points[0]) ) $points = array($points);
+
+		if( !is_array($columns) ) $columns = array($columns);
 
 		$data = array(
 			'name' => $serie,
