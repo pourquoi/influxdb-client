@@ -1,0 +1,18 @@
+{
+    "name": "pourquoi/influxdb-client",
+    "license": "WTFPL",
+	"description": "InfluxDB client",
+	"keywords": ["influxdb", "udp"],
+	"type": "library",
+    "authors": [
+        {
+            "name": "Mathias Dusautoy",
+            "email": "mathias.dusautoy@gmail.com"
+        }
+    ],
+	"autoload": {
+	    "psr-0": {"Pourquoi": "src/"}
+    },
+    "require": {
+    }
+}
