@@ -1,7 +1,7 @@
 {
     "name": "pourquoi/influxdb-client",
     "license": "WTFPL",
-	"description": "InfluxDB client",
+	"description": "InfluxDB client UDP",
 	"keywords": ["influxdb", "udp"],
 	"type": "library",
     "authors": [
